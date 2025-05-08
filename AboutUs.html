@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https: //fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700;&display=swap"rel="style.css">
+</head>
+<body>
+    <div class="header">
+     <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="C:\Users\Dell\Downloads\blu_logo-removebg-preview.png" width="125px">
+            </div>
+             <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="account.html">Account</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="AboutUs.html">About</a></li>
+                    <li><a href="">Contact</a></li>   
+                </ul>
+             </nav>
+             <a href="cart.html"><img src="C:\Users\Dell\OneDrive\Pictures\Saved Pictures\cartt.png" width="30px" height="30px"></a>
+             <img src="C:\Users\Dell\OneDrive\Pictures\Saved Pictures\menuu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+     </div>
+    </div>
+
+    <!------About Us--------->
+    <div class="section">
+        <div class="container">
+            <div class="content-section">
+                <div class="title">
+                    <h1>About Us</h1>
+                </div>
+                <div class="content">
+                    <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere obcaecati error aut similique fugiat laboriosam ex consequuntur vel quas alias laborum molestiae itaque nesciunt, esse perspiciatis dolore consectetur architecto nostrum.</p>
+                     <div class="button">Read more</div>
+                </div>
+                <div class="social">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        
+  
+
+
+    <!----------js for toggle menu------->
+    <script>
+       var MenuItems = document.getElementById("MenuItems");
+       MenuItems.style.maxHeight="0px";
+       function menutoggle(){
+        if( MenuItems.style.maxHeight=="0px")
+       {
+        MenuItems.style.maxHeight="200px";
+       }
+       else
+       {
+        MenuItems.style.maxHeight="0px"
+       }
+    }
+    </script>
+</body>
+</html>
